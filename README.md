@@ -2,9 +2,13 @@
 Hacker news parser
 
 Пример запуска
+
 python main.py -d 1 -p 8080 -i localhost -l https://news.ycombinator.com -m 100
+
 или 
+
 python main.py значения берутся из config.py
+
 Параметры:
 
 -l или --link сайт для парсинга
